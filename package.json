@@ -1,0 +1,35 @@
+{
+  "name": "mmall-fe",
+  "version": "1.0.0",
+  "description": "mmall前端代码",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "",
+    "dist" : "",
+    "start": "webpack-dev-server --inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luomingtutu/mmall-fe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luomingtutu/mmall-fe/issues"
+  },
+  "homepage": "https://github.com/luomingtutu/mmall-fe#readme",
+  "dependencies": {
+    "file-loader": "^1.1.6",
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^2.30.1",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^1.16.5"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "style-loader": "^0.19.1"
+  }
+}
