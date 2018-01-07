@@ -31,6 +31,7 @@
   "devDependencies": {
     "css-loader": "^0.28.7",
     "extract-text-webpack-plugin": "^2.1.2",
+    "hogan.js": "^3.0.2",
     "style-loader": "^0.19.1"
   }
 }
